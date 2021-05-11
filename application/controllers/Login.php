@@ -8,7 +8,7 @@ class Login extends CI_Controller {
             //redirect('Login/logout');
             return false;
         }
-    }
+    }   
     public function index(){
 		$this->load->helper('url');
 		$this->load->view('login/login');
